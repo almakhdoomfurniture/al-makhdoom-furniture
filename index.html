@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -6,71 +6,741 @@
 
 <title>Al-Makhdoom Furniture House | Furniture Shop in Mehrabpur</title>
 
-<meta name="description" content="Al-Makhdoom Furniture House Mehrabpur offers quality furniture, sofa sets, beds, foam mattresses, chairs and home furniture at affordable prices. Visit our showroom near Gulshan Madina Society, Thari Road, Mehrabpur.">
+<meta name="description" content="Al-Makhdoom Furniture House Mehrabpur offers quality furniture, sofa sets, beds, foam mattresses, chairs and complete Jahaiz packages. Visit our showroom near Gulshan Madina Society, Thari Road, Mehrabpur.">
 
-<meta name="keywords" content="Al-Makhdoom Furniture House, furniture shop in Mehrabpur, furniture in Mehrabpur, furniture showroom Mehrabpur, sofa set Mehrabpur, beds Mehrabpur, foam mattress Mehrabpur, chairs Mehrabpur, Thari Road Mehrabpur">
+<meta name="keywords" content="Al-Makhdoom Furniture House, furniture shop in Mehrabpur, furniture showroom Mehrabpur, sofa set Mehrabpur, beds Mehrabpur, foam mattress Mehrabpur, Jahaiz package Mehrabpur">
 
 <meta name="author" content="Al-Makhdoom Furniture House">
+<meta name="theme-color" content="#082d25">
 
 <meta property="og:title" content="Al-Makhdoom Furniture House | Mehrabpur">
-<meta property="og:description" content="Quality furniture, sofa sets, beds, foam mattresses and home furniture in Mehrabpur.">
+<meta property="og:description" content="Premium furniture, sofa sets, beds, foam mattresses and complete Jahaiz packages in Mehrabpur.">
 <meta property="og:type" content="website">
 
 <style>
-:root{--g:#082d25;--g2:#0d4437;--gold:#d4af37;--cream:#f7f3e8;--dark:#17201d}
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:var(--cream);color:var(--dark)}
-header{background:var(--g);color:#fff;position:sticky;top:0;z-index:5}.nav{max-width:1100px;margin:auto;padding:15px 18px;display:flex;justify-content:space-between;align-items:center}.logo{font-weight:800;letter-spacing:.7px}.logo b{color:var(--gold)}
-nav a{color:#fff;text-decoration:none;margin-left:16px;font-size:14px}
-.hero{background:linear-gradient(90deg,#041b15e8,#041b1570),url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1800&q=85') center/cover;min-height:65vh;display:flex;align-items:center}.hero>div{max-width:1100px;margin:auto;width:100%;padding:70px 18px;color:#fff}.hero h1{font-size:clamp(38px,7vw,70px);line-height:1.02;max-width:760px;margin:12px 0}.hero p{max-width:650px;font-size:18px}.btn{display:inline-block;padding:13px 19px;border-radius:5px;text-decoration:none;font-weight:700;margin:7px 6px 0 0}.gold{background:var(--gold);color:#111}.outline{border:1px solid #fff;color:#fff}
-section{max-width:1100px;margin:auto;padding:65px 18px}.title{text-align:center;margin-bottom:32px}.title small{color:#8b6c14;font-weight:700;letter-spacing:2px}.title h2{color:var(--g);font-size:34px;margin:7px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 7px 22px #00000012}.card img{width:100%;height:220px;object-fit:cover}.body{padding:17px}.body h3{color:var(--g);margin:0 0 5px}.body p{margin:0 0 10px}.price{font-weight:800;color:#8b6c14}.wa{display:inline-block;margin-top:12px;color:#fff;background:#198754;padding:9px 13px;border-radius:5px;text-decoration:none;font-weight:700}
-.banner{background:var(--g);color:#fff;border-radius:16px;padding:35px}.banner h2{color:var(--gold);margin-top:0}.contact{background:#fff;border-radius:14px;padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:15px}.box{background:#faf8f0;padding:16px;border-left:4px solid var(--gold)}footer{background:#061f19;color:#fff;text-align:center;padding:30px}footer b{color:var(--gold)}
-@media(max-width:720px){nav{display:none}.grid,.contact{grid-template-columns:1fr}.hero p{font-size:16px}}
+:root{
+  --green:#082d25;
+  --green2:#0d4437;
+  --gold:#d4af37;
+  --gold2:#f0d77b;
+  --cream:#f7f3e8;
+  --white:#fff;
+  --dark:#17201d;
+  --muted:#66716d;
+  --shadow:0 15px 45px rgba(0,0,0,.10);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:var(--cream);
+  color:var(--dark);
+  line-height:1.6;
+}
+
+a{text-decoration:none}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:rgba(8,45,37,.96);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(212,175,55,.25);
+}
+
+.nav{
+  max-width:1150px;
+  margin:auto;
+  padding:16px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  color:#fff;
+  font-size:18px;
+  font-weight:900;
+  letter-spacing:.8px;
+}
+
+.logo span{color:var(--gold)}
+
+nav a{
+  color:#fff;
+  margin-left:22px;
+  font-size:14px;
+  font-weight:600;
+}
+
+nav a:hover{color:var(--gold2)}
+
+.hero{
+  min-height:78vh;
+  display:flex;
+  align-items:center;
+  position:relative;
+  background:
+    linear-gradient(90deg,rgba(3,25,19,.94),rgba(3,25,19,.45)),
+    url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=2000&q=90')
+    center/cover;
+}
+
+.hero-content{
+  max-width:1150px;
+  width:100%;
+  margin:auto;
+  padding:90px 20px;
+  color:#fff;
+}
+
+.badge{
+  display:inline-block;
+  color:var(--gold2);
+  border:1px solid rgba(240,215,123,.5);
+  padding:8px 14px;
+  border-radius:50px;
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+}
+
+.hero h1{
+  max-width:850px;
+  font-size:clamp(42px,7vw,78px);
+  line-height:1.02;
+  margin:20px 0;
+  letter-spacing:-2px;
+}
+
+.hero h1 span{color:var(--gold2)}
+
+.hero p{
+  max-width:650px;
+  font-size:18px;
+  color:#f0f2ed;
+}
+
+.buttons{margin-top:28px}
+
+.btn{
+  display:inline-block;
+  padding:14px 22px;
+  border-radius:7px;
+  font-weight:800;
+  margin:6px 8px 6px 0;
+  transition:.25s;
+}
+
+.btn:hover{transform:translateY(-2px)}
+
+.gold{
+  background:var(--gold);
+  color:#111;
+}
+
+.white{
+  border:1px solid rgba(255,255,255,.6);
+  color:#fff;
+}
+
+section{
+  max-width:1150px;
+  margin:auto;
+  padding:80px 20px;
+}
+
+.section-head{
+  text-align:center;
+  max-width:700px;
+  margin:0 auto 42px;
+}
+
+.eyebrow{
+  color:#8b6c14;
+  font-weight:900;
+  letter-spacing:2px;
+  font-size:12px;
+  text-transform:uppercase;
+}
+
+.section-head h2{
+  color:var(--green);
+  font-size:clamp(30px,5vw,44px);
+  margin:8px 0;
+}
+
+.section-head p{
+  color:var(--muted);
+}
+
+.categories{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:15px;
+}
+
+.category{
+  background:#fff;
+  padding:25px 15px;
+  text-align:center;
+  border-radius:14px;
+  box-shadow:var(--shadow);
+  border:1px solid #eee8d9;
+  transition:.25s;
+}
+
+.category:hover{
+  transform:translateY(-6px);
+  border-color:var(--gold);
+}
+
+.category .icon{
+  font-size:34px;
+  margin-bottom:8px;
+}
+
+.category h3{
+  margin:4px 0;
+  color:var(--green);
+  font-size:16px;
+}
+
+.category p{
+  margin:0;
+  color:var(--muted);
+  font-size:13px;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+
+.product{
+  background:#fff;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  transition:.25s;
+}
+
+.product:hover{transform:translateY(-5px)}
+
+.product img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  display:block;
+}
+
+.product-body{padding:20px}
+
+.product-body h3{
+  color:var(--green);
+  margin:0 0 5px;
+  font-size:21px;
+}
+
+.product-body p{
+  color:var(--muted);
+  margin:0 0 15px;
+  font-size:14px;
+}
+
+.small-btn{
+  display:inline-block;
+  background:var(--green);
+  color:#fff;
+  padding:10px 14px;
+  border-radius:6px;
+  font-size:13px;
+  font-weight:800;
+}
+
+.jahaiz{
+  max-width:1110px;
+  margin:20px auto;
+  border-radius:22px;
+  overflow:hidden;
+  background:
+    linear-gradient(90deg,rgba(8,45,37,.97),rgba(8,45,37,.72)),
+    url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=85')
+    center/cover;
+}
+
+.jahaiz-inner{
+  padding:70px 45px;
+  color:#fff;
+  max-width:720px;
+}
+
+.jahaiz h2{
+  color:var(--gold2);
+  font-size:40px;
+  margin:8px 0 12px;
+}
+
+.jahaiz p{color:#f2f2ec}
+
+.jahaiz ul{
+  padding-left:20px;
+  line-height:2;
+}
+
+.why{
+  background:#fff;
+}
+
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+
+.why-card{
+  padding:25px;
+  background:var(--cream);
+  border-radius:14px;
+  border-left:4px solid var(--gold);
+}
+
+.why-card h3{
+  color:var(--green);
+  margin:5px 0;
+}
+
+.why-card p{
+  color:var(--muted);
+  font-size:14px;
+  margin:0;
+}
+
+.about{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  align-items:center;
+}
+
+.about-img{
+  width:100%;
+  min-height:360px;
+  object-fit:cover;
+  border-radius:18px;
+  box-shadow:var(--shadow);
+}
+
+.about h2{
+  color:var(--green);
+  font-size:40px;
+  line-height:1.1;
+}
+
+.about p{color:var(--muted)}
+
+.owners{
+  background:var(--green);
+  color:#fff;
+  padding:25px;
+  border-radius:14px;
+  margin-top:22px;
+}
+
+.owners b{color:var(--gold2)}
+
+.contact{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+
+.contact-box{
+  background:#fff;
+  padding:24px;
+  border-radius:14px;
+  box-shadow:var(--shadow);
+  border-top:3px solid var(--gold);
+}
+
+.contact-box h3{
+  margin:0 0 8px;
+  color:var(--green);
+}
+
+.contact-box p{
+  margin:0;
+  color:var(--muted);
+}
+
+.contact-box a{
+  color:var(--green);
+  font-weight:800;
+}
+
+.map-btn{
+  display:inline-block;
+  margin-top:12px;
+  background:var(--green);
+  color:#fff!important;
+  padding:10px 15px;
+  border-radius:6px;
+  font-size:13px;
+}
+
+.cta{
+  text-align:center;
+  background:linear-gradient(135deg,var(--green),var(--green2));
+  color:#fff;
+  border-radius:20px;
+  padding:55px 20px;
+}
+
+.cta h2{
+  color:var(--gold2);
+  font-size:38px;
+  margin:0 0 8px;
+}
+
+.cta p{
+  max-width:600px;
+  margin:0 auto 20px;
+  color:#e9eee9;
+}
+
+footer{
+  background:#061f19;
+  color:#dce5df;
+  text-align:center;
+  padding:35px 20px;
+}
+
+footer b{color:var(--gold2)}
+
+.footer-links{
+  margin:12px 0;
+}
+
+.footer-links a{
+  color:#fff;
+  margin:0 8px;
+  font-size:13px;
+}
+
+@media(max-width:850px){
+  .categories{grid-template-columns:repeat(2,1fr)}
+  .products{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .about{grid-template-columns:1fr}
+}
+
+@media(max-width:600px){
+  nav{display:none}
+  .hero{min-height:72vh}
+  .hero-content{padding:75px 18px}
+  .hero h1{font-size:45px;letter-spacing:-1px}
+  .hero p{font-size:16px}
+  section{padding:60px 16px}
+  .categories,.products,.why-grid,.contact{grid-template-columns:1fr}
+  .jahaiz-inner{padding:45px 25px}
+  .jahaiz h2,.cta h2{font-size:31px}
+  .about h2{font-size:32px}
+}
 </style>
 </head>
+
 <body>
-<header><div class="nav"><div class="logo">AL-MAKHDOOM <b>FURNITURE HOUSE</b></div><nav><a href="#products">Furniture</a><a href="#jahaiz">Jahaiz</a><a href="#contact">Contact</a></nav></div></header>
-<div class="hero"><div><small style="color:#d4af37;letter-spacing:2px">MEHRABPUR • SINDH</small><h1>Furniture That Makes Your Home Feel Complete.</h1><p>Quality furniture, elegant designs, foam & mattresses, and complete Jahaiz packages — all under one roof.</p><a class="btn gold" href="#products">Explore Furniture</a><a class="btn outline" href="https://wa.me/923264671110" target="_blank">WhatsApp Us</a></div></div>
 
-<section id="products"><div class="title"><small>OUR COLLECTION</small><h2>Latest Furniture</h2></div><div id="productGrid" class="grid"><p>Loading products...</p></div></section>
-<section id="jahaiz"><div class="banner"><h2>Complete Jahaiz Packages</h2><p>Ask us about our latest Jahaiz packages, designs and prices.</p><a class="btn gold" href="https://wa.me/923264671110?text=Assalam-o-Alaikum%2C%20Jahaiz%20packages%20ki%20details%20chahiye." target="_blank">Get Details on WhatsApp</a></div></section>
-<section id="contact"><div class="title"><small>GET IN TOUCH</small><h2>Visit Our Showroom</h2></div><div class=<div class="contact">
-  <div class="box">
-    <b>📍 Location</b><br>
-    Near Gulshan Madina Society, Thari Road, Mehrabpur, Sindh, Pakistan
-  </div>
+<header>
+  <div class="nav">
+    <div class="logo">AL-MAKHDOOM <span>FURNITURE HOUSE</span></div>
 
-  <div class="box">
-    <b>📞 Phone / WhatsApp</b><br>
-    <a href="tel:+923264671110">0326-4671110</a><br>
-    <a class="wa" href="https://wa.me/923264671110" target="_blank">💬 WhatsApp Us</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#furniture">Furniture</a>
+      <a href="#jahaiz">Jahaiz</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </div>
+</header>
 
-  <div class="box">
-    <b>👤 Owners</b><br>
-    Fakhar Abbas & Athar Abbas
-  </div>
+<main>
 
-  <div class="box">
-    <b>🛋️ Furniture Available</b><br>
-    Sofa Sets, Beds, Foam Mattresses, Chairs & Home Furniture
+<section class="hero" id="home">
+  <div class="hero-content">
+    <span class="badge">Mehrabpur • Sindh</span>
+
+    <h1>
+      Furniture That Makes
+      <span>Your Home Complete.</span>
+    </h1>
+
+    <p>
+      Premium furniture, elegant sofa sets, beautiful beds,
+      quality foam & mattresses and complete Jahaiz packages —
+      all under one roof.
+    </p>
+
+    <div class="buttons">
+      <a class="btn gold" href="#furniture">Explore Collection</a>
+      <a class="btn white" href="https://wa.me/923264671110" target="_blank">💬 WhatsApp Us</a>
+    </div>
   </div>
-</div>
 </section>
 
+<section>
+  <div class="section-head">
+    <div class="eyebrow">Our Categories</div>
+    <h2>Everything Your Home Needs</h2>
+    <p>Explore our furniture categories and find the right style for your home.</p>
+  </div>
+
+  <div class="categories">
+    <div class="category">
+      <div class="icon">🛋️</div>
+      <h3>Sofa Sets</h3>
+      <p>Elegant & comfortable designs</p>
+    </div>
+
+    <div class="category">
+      <div class="icon">🛏️</div>
+      <h3>Beds</h3>
+      <p>Beautiful bedroom furniture</p>
+    </div>
+
+    <div class="category">
+      <div class="icon">🪑</div>
+      <h3>Chairs</h3>
+      <p>Stylish seating solutions</p>
+    </div>
+
+    <div class="category">
+      <div class="icon">🧽</div>
+      <h3>Foam & Mattresses</h3>
+      <p>Comfort for better sleep</p>
+    </div>
+
+    <div class="category">
+      <div class="icon">🎁</div>
+      <h3>Jahaiz Packages</h3>
+      <p>Complete packages for your home</p>
+    </div>
+  </div>
+</section>
+
+<section id="furniture">
+  <div class="section-head">
+    <div class="eyebrow">Featured Collection</div>
+    <h2>Furniture For Every Home</h2>
+    <p>Quality designs with a premium look and comfortable finish.</p>
+  </div>
+
+  <div class="products">
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=85" alt="Sofa set at Al-Makhdoom Furniture House">
+      <div class="product-body">
+        <h3>Premium Sofa Sets</h3>
+        <p>Elegant sofa designs for living rooms and family spaces.</p>
+        <a class="small-btn" href="https://wa.me/923264671110?text=Assalam-o-Alaikum%2C%20I%20want%20details%20about%20Sofa%20Sets." target="_blank">Ask on WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=85" alt="Bedroom furniture and bed">
+      <div class="product-body">
+        <h3>Bedroom Furniture</h3>
+        <p>Stylish beds and bedroom furniture for a complete look.</p>
+        <a class="small-btn" href="https://wa.me/923264671110?text=Assalam-o-Alaikum%2C%20I%20want%20details%20about%20Bedroom%20Furniture." target="_blank">Ask on WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=85" alt="Home furniture chairs">
+      <div class="product-body">
+        <h3>Chairs & Home Furniture</h3>
+        <p>Comfortable and beautiful furniture for your home.</p>
+        <a class="small-btn" href="https://wa.me/923264671110?text=Assalam-o-Alaikum%2C%20I%20want%20details%20about%20Chairs%20and%20Home%20Furniture." target="_blank">Ask on WhatsApp</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="jahaiz">
+  <div class="jahaiz">
+    <div class="jahaiz-inner">
+      <div class="eyebrow">Special Collection</div>
+      <h2>Complete Jahaiz Packages</h2>
+
+      <p>
+        Make your new home complete with beautifully coordinated
+        furniture packages designed according to your needs and budget.
+      </p>
+
+      <ul>
+        <li>Bedroom Furniture</li>
+        <li>Sofa Sets & Chairs</li>
+        <li>Foam & Mattresses</li>
+        <li>Customized Package Options</li>
+      </ul>
+
+      <a class="btn gold" href="https://wa.me/923264671110?text=Assalam-o-Alaikum%2C%20I%20want%20details%20about%20Jahaiz%20Packages." target="_blank">
+        Get Jahaiz Package Details
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="section-head">
+    <div class="eyebrow">Why Al-Makhdoom</div>
+    <h2>Made For Your Home</h2>
+    <p>We focus on quality, style, comfort and value.</p>
+  </div>
+
+  <div class="why-grid">
+
+    <div class="why-card">
+      <div>✨</div>
+      <h3>Quality Furniture</h3>
+      <p>Furniture selected with attention to quality and finishing.</p>
+    </div>
+
+    <div class="why-card">
+      <div>💰</div>
+      <h3>Affordable Prices</h3>
+      <p>Beautiful furniture options for different budgets.</p>
+    </div>
+
+    <div class="why-card">
+      <div>🎨</div>
+      <h3>Elegant Designs</h3>
+      <p>Modern and classic styles to match your home.</p>
+    </div>
+
+    <div class="why-card">
+      <div>🏠</div>
+      <h3>Complete Home</h3>
+      <p>Furniture, foam, mattresses and Jahaiz packages in one place.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+  <div class="about">
+
+    <img class="about-img"
+      src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85"
+      alt="Elegant furniture showroom">
+
+    <div>
+      <div class="eyebrow">About Us</div>
+      <h2>Al-Makhdoom Furniture House</h2>
+
+      <p>
+        Welcome to Al-Makhdoom Furniture House, Mehrabpur.
+        We provide quality furniture, sofa sets, beds, chairs,
+        foam & mattresses and complete Jahaiz packages for your home.
+      </p>
+
+      <p>
+        Visit our showroom and explore furniture options
+        designed to bring comfort and elegance to your home.
+      </p>
+
+      <div class="owners">
+        <b>Owners</b><br>
+        Fakhar Abbas & Athar Abbas
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-head">
+    <div class="eyebrow">Visit Us</div>
+    <h2>Come To Our Showroom</h2>
+    <p>We'd love to help you find furniture for your home.</p>
+  </div>
+
+  <div class="contact">
+
+    <div class="contact-box">
+      <h3>📍 Location</h3>
+      <p>Near Gulshan Madina Society,<br>
+      Thari Road, Mehrabpur,<br>
+      Sindh, Pakistan</p>
+
+      <a class="map-btn"
+        href="https://www.google.com/maps/search/?api=1&query=Al-Makhdoom+Furniture+House+Mehrabpur"
+        target="_blank">
+        📍 Get Directions
+      </a>
+    </div>
+
+    <div class="contact-box">
+      <h3>📞 Phone / WhatsApp</h3>
+      <p>
+        <a href="tel:+923264671110">0326-4671110</a>
+      </p>
+
+      <a class="map-btn"
+        href="https://wa.me/923264671110"
+        target="_blank">
+        💬 Chat on WhatsApp
+      </a>
+    </div>
+
+    <div class="contact-box">
+      <h3>👤 Owners</h3>
+      <p>Fakhar Abbas & Athar Abbas</p>
+    </div>
+
+    <div class="contact-box">
+      <h3>🛋️ Available</h3>
+      <p>Sofa Sets • Beds • Foam • Mattresses • Chairs • Home Furniture • Jahaiz Packages</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="cta">
+    <h2>Ready To Furnish Your Home?</h2>
+    <p>Contact Al-Makhdoom Furniture House for furniture details and Jahaiz package options.</p>
+
+    <a class="btn gold"
+       href="https://wa.me/923264671110"
+       target="_blank">
+       💬 WhatsApp Us
+    </a>
+  </div>
+</section>
+
+</main>
+
 <footer>
-  © 2026 <b>Al-Makhdoom Furniture House</b> • Furniture Shop in Mehrabpur
+  <b>AL-MAKHDOOM FURNITURE HOUSE</b>
+
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#furniture">Furniture</a>
+    <a href="#jahaiz">Jahaiz</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  © 2026 • Furniture Shop in Mehrabpur
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script>
-const SUPABASE_URL="PASTE_SUPABASE_URL_HERE";
-const SUPABASE_KEY="PASTE_SUPABASE_PUBLISHABLE_KEY_HERE";
-const ready=!SUPABASE_URL.startsWith("PASTE_")&&!SUPABASE_KEY.startsWith("PASTE_");
-const grid=document.getElementById("productGrid");
-function render(list){grid.innerHTML=list.length?list.map(p=>`<article class="card"><img src="${p.image_url}" alt="${escapeHtml(p.name)}"><div class="body"><h3>${escapeHtml(p.name)}</h3><p>${escapeHtml(p.description||"Quality furniture from Al-Makhdoom Furniture House.")}</p>${p.price?`<div class="price">Rs. ${escapeHtml(p.price)}</div>`:""}<a class="wa" target="_blank" href="https://wa.me/923264671110?text=${encodeURIComponent("Assalam-o-Alaikum, mujhe "+p.name+" ki details chahiye.")}">WhatsApp Inquiry</a></div></article>`).join(""):"<p>No products added yet.</p>"}
-function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
-async function load(){if(!ready){grid.innerHTML="<p>Website setup is not connected yet. Add Supabase settings from the setup guide.</p>";return}const sb=supabase.createClient(SUPABASE_URL,SUPABASE_KEY);const {data,error}=await sb.from("products").select("*").eq("active",true).order("created_at",{ascending:false});if(error){grid.innerHTML="<p>Products are temporarily unavailable.</p>";console.error(error);return}render(data||[])}
-load();
-</script>
-</body></html>
+</body>
+</html>
